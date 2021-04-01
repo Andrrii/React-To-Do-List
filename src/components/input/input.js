@@ -1,13 +1,12 @@
 import React from "react"
+import "./input.css"
 
 const Input = () => {
     const searchText = "Type here to search"
-    const searchStyle = {
-      fontSize: "20px"
-    }
+
     return (
-      <input
-        style = {searchStyle}
+      <input type = "text"
+        className = "form-control search-input"
         placeholder = {searchText} >
       </input>
     )
